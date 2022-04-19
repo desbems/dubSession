@@ -18,15 +18,17 @@ nav
 }
 body
 {
-    display: block;
-    background-image: url("../image/dubBackground.jpg") ;
+
+    background-image: url("../image/dubBackground.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 #dub
 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    height: 400px;
     width: 300px;
 }
 #dub:hover
@@ -35,6 +37,8 @@ body
 }
 #text 
 {
+    display: grid;
+    place-items: center;
     font-family: StretchPro;
     font-size: 30px;
     display: block;
