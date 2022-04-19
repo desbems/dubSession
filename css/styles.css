@@ -27,22 +27,17 @@ body
     height: 100%;
     overflow: hidden;
 }
-#dub
-{
-    width: 300px;
-}
-#dub:hover
-{
-    transform: scale(1.1);
-}
-#text 
+#flyer
 {
     display: grid;
-    place-items: center;
+    border: 10px solid #FFB163;
+    box-shadow: 3px 3px 3px black;
     font-family: StretchPro;
-    font-size: 30px;
-    display: block;
-    margin-left: auto;
+    font-size: 20px;
+    justify-content: center;
+    align-self: center;
+    margin-top: 200px;
+    margin-right: 25%;
+    margin-left: 25%;
     text-align: center;
-    align-content: center;
 }
