@@ -41,3 +41,13 @@ body
     margin-left: 25%;
     text-align: center;
 }
+#artists {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    line-height: 5px;
+}
+#titre {
+    line-height: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
