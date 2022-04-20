@@ -9,6 +9,14 @@ nav
     font-family: StretchPro;
     src: url("../image/StretchPro.otf");
 }
+@keyframes zoom {
+    0% {
+        scale: 0.95;
+      }
+      100% {
+        scale: 1.09;
+      }
+}
 #instagram
 {
     margin-right: 10px;
@@ -41,6 +49,14 @@ body
     margin-left: 25%;
     text-align: center;
 }
+#sess {
+    font-variant-ligatures: none;
+    float: left;
+
+}
+#ion {
+    float: right;
+}
 #artists {
     margin-bottom: 1px;
     margin-top: 1px;
@@ -50,4 +66,12 @@ body
     line-height: 10px;
     margin-bottom: 5px;
     margin-top: 15px;
+}
+#attention {
+    background: yellow;
+    
+}
+#test {
+    display: flex;
+    justify-content: center;
 }
